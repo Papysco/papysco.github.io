@@ -218,6 +218,7 @@ p.project_text{
     font-weight: bold;
     text-align: center;
     height: 45px;
+    height: auto;
     width: 150px;
     border: none;
     position: absolute;
@@ -286,6 +287,37 @@ p.project_text{
     height: 45px;
     border: none;
     width: 260px;
+}
+
+@media (max-width:415px) {
+   
+    .logo_area button {
+        background-color: coral;
+        color: white;
+        border-radius: 30px;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        height: 45px;
+        border: none;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .logo_area button:hover {
+        background-color: rgb(221, 97, 51);
+        color: white;
+        border-radius: 30px;
+        font-size: 1em;
+        font-weight: bold;
+        text-align: center;
+        height: 45px;
+        border: none;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
 }
 
 /*pied de page*/
