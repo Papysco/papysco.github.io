@@ -106,7 +106,7 @@ img.social-media {
 
 }
 
-@media (max-width :415px ) {
+@media (max-width :415px) {
 
     .partie1-list li {
         color: white;
@@ -143,17 +143,15 @@ img.social-media {
 .info-text p{
     font-size:25px;
 }
-
 .profil img{
     width: 190px;
     height: 190px;
     border-radius: 150px;
-    
 }
 
 /*partie project*/
 
-.project{
+.project {
     width: 100%;
     height: auto;
     background-color: rgb(255, 231, 231);
@@ -163,11 +161,13 @@ img.social-media {
     flex-direction: column;
     border-bottom: 2px solid dodgerblue;
 }
+
 .project h3 {
     font-size: 2.2rem;
     text-align: center;
     font-weight: bold;
 }
+
 .project_area{
     width: 100%;
     height: auto;
@@ -177,7 +177,7 @@ img.social-media {
     justify-content: space-around;
 
 }
-.project_area_item{
+.project_area_item {
     width: 230px;
     height: 450px;
     box-shadow: 5px 5px 30px rgb(160, 160, 160);
@@ -225,6 +225,10 @@ p.project_text{
     bottom: 35px;
 }
 
+.project button a{
+    color: white;
+}
+
 .project_area_item button:hover{
     background-color: rgb(221, 97, 51);
 }
@@ -239,8 +243,8 @@ p.project_text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
+
 .logo_area h2 {
     font-size: 2.2rem;
     text-align: center;
@@ -248,11 +252,12 @@ p.project_text{
     font-weight: bold;
 
 }
+
 .logo_area_bloc {
     width: 100%;
     margin: 0px;
-    
 }
+
 .logo_area_bloc .col {
     text-align: center;
     padding: 0px;
